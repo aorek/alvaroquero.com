@@ -11,7 +11,7 @@ Deploy the example using [Vercel](https://vercel.com):
 ## Instalation
 
 ```
-npm i
+npm install
 ```
 
 ## Run
