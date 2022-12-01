@@ -2,6 +2,12 @@
   "name": "alvaroquero.com",
   "version": "0.1.0",
   "private": true,
+  "author": {
+    "name": "Alvaro Quero",
+    "email": "aquerorodriguez@gmail.com",
+    "url": "https://alvaroquero.com"
+  },
+  "repository": "https://github.com/aorek/alvaroquero.com",
   "scripts": {
     "dev": "next dev",
     "build": "next build",
