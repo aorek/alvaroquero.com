@@ -1,3 +1,15 @@
+:root {
+  --fs-xs: 0.75rem;
+  --fs-sm: 0.875rem;
+  --fs-md: 1rem;
+  --fs-lg: 1.125rem;
+  --fs-xl: 1.25rem;
+  --fs-2xl: 1.5rem;
+  --fs-3xl: 1.875rem;
+  --fs-4xl: 2.25rem;
+  --fs-5xl: 3rem;
+}
+
 html,
 body {
   padding: 0;
@@ -15,6 +27,32 @@ a {
   box-sizing: border-box;
 }
 
+body {
+  padding: 0 2em;
+}
+
+#__next {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+header {
+  width: 100%;
+}
+
+main {
+  width: 100%;
+}
+
+.title {
+  font-size: var(--fs-2xl);
+}
+
+.subtitle {
+  font-size: var(--fs-1xl);
+}
+
 @media (prefers-color-scheme: dark) {
   html {
     color-scheme: dark;
@@ -24,3 +62,20 @@ a {
     background: black;
   }
 }
+
+@media screen and (min-width: 768px) {
+  main,
+  .container {
+    margin: 0 auto;
+    max-width: 768px;
+  }
+
+  .title {
+    font-size: var(--fs-4xl);
+  }
+
+  .subtitle {
+    font-size: var(--fs-3xl);
+  }
+}
+
