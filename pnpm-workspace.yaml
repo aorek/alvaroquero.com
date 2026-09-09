@@ -2,3 +2,8 @@ allowBuilds:
   core-js: true
   esbuild: true
   sharp: true
+
+overrides:
+  fast-uri: '>=3.1.6'
+  svgo: '>=4.1.0'
+  yaml: '>=2.8.3'
